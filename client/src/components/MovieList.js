@@ -15,6 +15,7 @@ function MovieList() {
       });
   }, []);
 
+
   const categories = movies
     .map((movie) => movie.category)
     .filter(
